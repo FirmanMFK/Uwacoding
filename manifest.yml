@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Uwacoding
+  host: Uwacoding
+  disk_quota: 1024M
+  services:
+  - Uwacoding-AdvancedMobileAccess
+  - Uwacoding-imfpush
+  - Uwacoding-cloudantNoSQLDB
